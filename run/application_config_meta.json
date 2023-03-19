@@ -1,0 +1,330 @@
+{
+  "keys": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+  "webpack": {
+    "custom": {
+      "configPath": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+      "depth": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "cssExtract": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+    },
+    "mode": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+    "output": {
+      "path": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "filename": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "chunkFilename": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "publicPath": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+    },
+    "resolve": {
+      "extensions": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "alias": {
+        "client": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+      }
+    },
+    "optimization": {
+      "splitChunks": {
+        "chunks": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+        "name": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+        "cacheGroups": {
+          "default": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+          "vendors": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+          "manifest": {
+            "test": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+          }
+        }
+      },
+      "noEmitOnErrors": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+    },
+    "devServer": {
+      "contentBase": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "port": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "noInfo": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "quiet": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "clientLogLevel": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "lazy": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "watchOptions": {
+        "aggregateTimeout": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+      },
+      "headers": {
+        "X-Custom-Header": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+      },
+      "stats": {
+        "colors": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+        "chunks": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+      },
+      "publicPath": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js",
+      "hot": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-webpack/config/config.default.js"
+    }
+  },
+  "router": {
+    "root": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+    "entry": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+    "urlPrefix": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-router/config/config.default.js",
+    "exclude": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-router/config/config.default.js",
+    "mapping": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-router/config/config.default.js",
+    "exts": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-router/config/config.default.js"
+  },
+  "react": "/Users/leirong/workspance/common/antd-admin/config/config.local.js",
+  "security": {
+    "domainWhiteList": "/Users/leirong/workspance/common/antd-admin/config/config.default.js"
+  },
+  "session": {
+    "key": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+    "maxAge": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+    "httpOnly": "/Users/leirong/workspance/common/antd-admin/config/config.default.js",
+    "encrypt": "/Users/leirong/workspance/common/antd-admin/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-onerror/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-view-react/config/config.default.js",
+    "cache": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-view-react/config/config.default.js",
+    "defaultViewEngine": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-view-react/config/config.default.js",
+    "mapping": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-view/config/config.default.js",
+    "useHashAsset": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-view/config/config.default.js",
+    "hashAssetPath": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-view/config/config.default.js"
+  },
+  "isomorphic": {
+    "polyfill": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-isomorphic/config/config.default.js",
+    "universal": {
+      "assetsFilePath": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-isomorphic/config/config.default.js",
+      "assets": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-isomorphic/config/config.default.js"
+    },
+    "alias": {
+      "client": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-isomorphic/config/config.default.js"
+    }
+  },
+  "userrole": {
+    "failureHandler": "/Users/leirong/workspance/common/antd-admin/node_modules/egg-userrole/config/config.default.js"
+  },
+  "env": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-core/config/config.default.js",
+  "name": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "version": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "description": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "debug": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "stop": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "dev": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "build": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "build:node": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "lint": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "antd": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "axios": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "babel-polyfill": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "beidou": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "beidou-cli": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "classnames": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "color": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "diskdb": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "echarts": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "echarts-for-react": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "echarts-gl": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "echarts-liquidfill": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "egg-userrole": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "egg-validate": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "js-cookie": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "nprogress": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "path-to-regexp": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "prop-types": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "query-string": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "rc-tween-one": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react-countup": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react-highcharts": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react-redux": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react-router": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "recharts": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "redux": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "redux-actions": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "redux-saga": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "reqwest": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "babel-eslint": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "copy-webpack-plugin": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "eslint-config-beidou": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "globby": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "browserslist": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "license": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "gitHead": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-core/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "strict": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "depth": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "env": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "level": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "logging": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-core/config/config.default.js",
+  "workerStartTimeout": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "port": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/leirong/workspance/common/antd-admin/node_modules/egg/config/config.default.js",
+  "client": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-core/config/config.default.js",
+  "core": {
+    "name": "/Users/leirong/workspance/common/antd-admin/node_modules/beidou-core/config/config.default.js"
+  }
+}

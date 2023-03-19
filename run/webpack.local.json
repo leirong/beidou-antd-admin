@@ -1,0 +1,413 @@
+{
+  "mode": "development",
+  "output": {
+    "path": "/Users/leirong/workspance/common/antd-admin/build",
+    "filename": "[name].js?[hash]",
+    "chunkFilename": "[name].js",
+    "publicPath": "/build/"
+  },
+  "resolve": {
+    "extensions": [
+      ".json",
+      ".js",
+      ".jsx"
+    ],
+    "alias": {
+      "client": "/Users/leirong/workspance/common/antd-admin/client",
+      "themes": "/Users/leirong/workspance/common/antd-admin/client/themes"
+    }
+  },
+  "optimization": {
+    "splitChunks": {
+      "chunks": "all",
+      "name": "manifest",
+      "cacheGroups": {
+        "default": false,
+        "vendors": false,
+        "manifest": {
+          "test": "/[\\\\/]node_modules[\\\\/]/"
+        }
+      },
+      "hidePathInfo": false,
+      "minSize": 10000,
+      "minChunks": 1,
+      "maxAsyncRequests": null,
+      "automaticNameDelimiter": "~",
+      "automaticNameMaxLength": 109,
+      "maxInitialRequests": null
+    },
+    "noEmitOnErrors": true
+  },
+  "devServer": {
+    "contentBase": false,
+    "port": 6002,
+    "noInfo": true,
+    "quiet": false,
+    "clientLogLevel": "warning",
+    "lazy": false,
+    "watchOptions": {
+      "aggregateTimeout": 300
+    },
+    "headers": {
+      "X-Custom-Header": "yes"
+    },
+    "stats": {
+      "colors": true,
+      "chunks": false
+    },
+    "publicPath": "/build/",
+    "hot": true,
+    "serverMode": "sockjs"
+  },
+  "bail": false,
+  "devtool": "eval-source-map",
+  "context": "/Users/leirong/workspance/common/antd-admin",
+  "entry": {
+    "login": [
+      "/Users/leirong/workspance/common/antd-admin/client/pages/login/index.jsx"
+    ],
+    "main": [
+      "/Users/leirong/workspance/common/antd-admin/client/pages/dashboard/index.jsx"
+    ]
+  },
+  "module": {
+    "strictExportPresence": true,
+    "rules": [
+      {
+        "test": "/\\.(js|jsx|ts|tsx|mjs)$/",
+        "exclude": "/node_modules/",
+        "use": {
+          "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/babel-loader/lib/index.js",
+          "options": {
+            "babelrc": true,
+            "presets": [
+              [
+                "/Users/leirong/workspance/common/antd-admin/node_modules/babel-preset-beidou-client/index.js",
+                {}
+              ]
+            ],
+            "cacheDirectory": true,
+            "compact": false,
+            "highlightCode": true
+          }
+        }
+      },
+      {
+        "test": "/\\.css$/",
+        "exclude": "/\\.m(odule)?\\.css$/",
+        "use": [
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": false
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.m(odule)?\\.css$/",
+        "use": [
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": true,
+              "localIdentName": "[local]_[hash:base64:5]"
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.less$/",
+        "exclude": "/\\.m(odule)?\\.less$/",
+        "use": [
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": false
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/less-loader/dist/cjs.js",
+            "options": {
+              "javascriptEnabled": true
+            }
+          }
+        ]
+      },
+      {
+        "test": "/\\.m(odule)?\\.less$/",
+        "use": [
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/mini-css-extract-plugin/dist/loader.js",
+            "options": {
+              "hmr": true
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/css-loader/index.js",
+            "options": {
+              "importLoaders": 1,
+              "minimize": false,
+              "sourceMap": true,
+              "modules": true,
+              "localIdentName": "[local]_[hash:base64:5]"
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/postcss-loader/lib/index.js",
+            "options": {
+              "ident": "postcss"
+            }
+          },
+          {
+            "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/less-loader/dist/cjs.js",
+            "options": {
+              "javascriptEnabled": true
+            }
+          }
+        ]
+      },
+      {
+        "test": [
+          "/\\.bmp$/",
+          "/\\.gif$/",
+          "/\\.jpe?g$/",
+          "/\\.png$/",
+          "/\\.webp$/"
+        ],
+        "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/url-loader/index.js",
+        "options": {
+          "limit": 10000,
+          "name": "[name]-[hash:5].[ext]"
+        }
+      },
+      {
+        "test": [
+          "/\\.ico$/",
+          "/\\.svgz?$/",
+          "/\\.woff2?$/",
+          "/\\.otf$/",
+          "/\\.tiff?$/",
+          "/\\.ttf$/",
+          "/\\.eot$/",
+          "/\\.midi?$/"
+        ],
+        "loader": "/Users/leirong/workspance/common/antd-admin/node_modules/file-loader/dist/cjs.js",
+        "options": {
+          "name": "[name]-[hash:5].[ext]"
+        }
+      }
+    ]
+  },
+  "plugins": [
+    {
+      "<IsomorphicPlugin>": {
+        "options": {
+          "assetsFilePath": "/Users/leirong/workspance/common/antd-admin/.isomorphic/assets.json",
+          "assets": [
+            ".sass",
+            ".scss",
+            ".less",
+            ".css",
+            ".bmp",
+            ".gif",
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".webp",
+            ".ico",
+            ".woff",
+            ".woff2",
+            ".svg",
+            ".svgz",
+            ".otf",
+            ".tif",
+            ".tiff",
+            ".ttf",
+            ".eot",
+            ".mid",
+            ".midi"
+          ],
+          "context": "/Users/leirong/workspance/common/antd-admin"
+        },
+        "exts": {
+          ".sass": {
+            "ext": ".sass",
+            "exclude": "node_modules"
+          },
+          ".scss": {
+            "ext": ".scss",
+            "exclude": "node_modules"
+          },
+          ".less": {
+            "ext": ".less",
+            "exclude": "node_modules"
+          },
+          ".css": {
+            "ext": ".css",
+            "exclude": "node_modules"
+          },
+          ".bmp": {
+            "ext": ".bmp",
+            "exclude": "node_modules"
+          },
+          ".gif": {
+            "ext": ".gif",
+            "exclude": "node_modules"
+          },
+          ".jpg": {
+            "ext": ".jpg",
+            "exclude": "node_modules"
+          },
+          ".jpeg": {
+            "ext": ".jpeg",
+            "exclude": "node_modules"
+          },
+          ".png": {
+            "ext": ".png",
+            "exclude": "node_modules"
+          },
+          ".webp": {
+            "ext": ".webp",
+            "exclude": "node_modules"
+          },
+          ".ico": {
+            "ext": ".ico",
+            "exclude": "node_modules"
+          },
+          ".woff": {
+            "ext": ".woff",
+            "exclude": "node_modules"
+          },
+          ".woff2": {
+            "ext": ".woff2",
+            "exclude": "node_modules"
+          },
+          ".svg": {
+            "ext": ".svg",
+            "exclude": "node_modules"
+          },
+          ".svgz": {
+            "ext": ".svgz",
+            "exclude": "node_modules"
+          },
+          ".otf": {
+            "ext": ".otf",
+            "exclude": "node_modules"
+          },
+          ".tif": {
+            "ext": ".tif",
+            "exclude": "node_modules"
+          },
+          ".tiff": {
+            "ext": ".tiff",
+            "exclude": "node_modules"
+          },
+          ".ttf": {
+            "ext": ".ttf",
+            "exclude": "node_modules"
+          },
+          ".eot": {
+            "ext": ".eot",
+            "exclude": "node_modules"
+          },
+          ".mid": {
+            "ext": ".mid",
+            "exclude": "node_modules"
+          },
+          ".midi": {
+            "ext": ".midi",
+            "exclude": "node_modules"
+          }
+        },
+        "fs": {
+          "<MemoryFileSystem>": {
+            "data": {}
+          }
+        }
+      }
+    },
+    {
+      "<DefinePlugin>": {
+        "definitions": {
+          "process.env.NODE_ENV": "\"development\"",
+          "process.env.BABEL_ENV": "\"development\"",
+          "__CLIENT__": true,
+          "__DEV__": true,
+          "__SERVER__": false
+        }
+      }
+    },
+    {
+      "<HotModuleReplacementPlugin>": {
+        "options": {},
+        "fullBuildTimeout": 200,
+        "requestTimeout": 10000
+      }
+    },
+    {
+      "<MiniCssExtractPlugin>": {
+        "options": {
+          "filename": "[name].css",
+          "chunkFilename": "[name].css"
+        }
+      }
+    },
+    {
+      "<CopyPlugin>": {
+        "patterns": [
+          {
+            "from": "/Users/leirong/workspance/common/antd-admin/node_modules/nprogress/nprogress.js",
+            "to": "/Users/leirong/workspance/common/antd-admin/build/nprogress.js"
+          }
+        ],
+        "options": {}
+      }
+    }
+  ]
+}
